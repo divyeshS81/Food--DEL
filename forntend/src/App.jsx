@@ -7,6 +7,7 @@ import PlaceOrder from './pages/PlaceOrder/PlaceOrder'
 
 const App = () => {
   return (
+    <>
     <div className='app'>
       <Navbar/>
       <Routes>
@@ -15,6 +16,8 @@ const App = () => {
         <Route path='/order' element={<PlaceOrder/>} />
       </Routes>
     </div>
+    <Footer />
+    </>
   )
 }
 
